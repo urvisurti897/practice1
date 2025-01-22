@@ -2,9 +2,9 @@
 
 # file: will_return_sum_of_two_numbers_correctly.sh
 
-RESULT=$(./sum_up_to_three_numbers.sh 13 15)
+RESULT=$(./sum_up_to_three_numbers.sh 13 15 11)
  
-if [[ $RESULT -eq 28 ]];
+if [[ $RESULT -eq 39 ]];
 then
 	echo "Success"
 else 
